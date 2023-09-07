@@ -1,7 +1,14 @@
-import React from "react";
+import "./App.css";
+import { PieChart, BarChart, LineChart } from "./charts/index";
 
-const App = () => {
-  return <div>App</div>;
-};
+function App() {
+  return (
+    <>
+      <PieChart />
+      <BarChart />
+      <LineChart />
+    </>
+  );
+}
 
 export default App;
